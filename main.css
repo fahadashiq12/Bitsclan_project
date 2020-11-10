@@ -128,6 +128,7 @@ body
 		width: 100%;
 	}
 }
+
 .first_bg{
     background-image: url(img/first_bg.png);
     background-repeat: no-repeat;
@@ -172,7 +173,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 600px;
+    height: 790px;
 }
 
 .five_bg{
@@ -180,7 +181,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 600px;
 }
 
 .six_bg{
@@ -191,22 +192,76 @@ body
     height: 500px;
 }
 
+.seven_bg{
+    background-image: url(img/third_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.eight_bg{
+    background-image: url(img/third_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
 .third_table
 {
- padding-left: 4rem;
- padding-right: 4rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
  padding-top: 4rem;
 
 }
 
 .four_table
 {
- padding-left: 4rem;
+ padding-left: 2rem;
  padding-top: 6rem;
+}
+
+.five_table
+{
+padding-left: 8rem;
+padding-top: 4rem;	
+}
+
+.five_style
+{
+	height: 310px;
+	width:  260px;	
 }
 
 .card_style
 {
-	height: 25px;
-	width: 250px;
+	height: 290px;
+	width: 327px;
 }
+
+.six_bg_1
+{
+ background-image: url(img/orange-Bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+}
+
+.six_bg_2
+{
+ background-image: url(img/student.png);
+ background-repeat: no-repeat;
+ background-size: cover; 
+ height: 500px;
+}
+
+.six_bg_3
+{
+ background-image: url(img/Blue-Bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+}
+
+
