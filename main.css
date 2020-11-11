@@ -181,7 +181,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 600px;
+    height: 650px;
 }
 
 .six_bg{
@@ -210,8 +210,8 @@ body
 
 .third_table
 {
- padding-left: 2rem;
- padding-right: 2rem;
+ padding-left: 4rem;
+ padding-right: 4rem;
  padding-top: 4rem;
 
 }
@@ -240,6 +240,24 @@ padding-top: 4rem;
 	width: 327px;
 }
 
+.seven_design
+{
+
+  padding-top: 2rem;
+  padding-left: 4rem;
+
+}
+
+.seven_table
+{
+	padding-top: 2rem;	
+}
+
+.third_row
+{
+	padding-top: 6rem;
+}
+
 .six_bg_1
 {
  background-image: url(img/orange-Bg.png);
@@ -264,4 +282,94 @@ padding-top: 4rem;
  height: 500px;
 }
 
+.twelve_bg
+{
+ background-image: url(img/twelve-bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 700px;
+}
 
+
+.thirteen_bg
+{
+ background-image: url(img/Thirteen-bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100px;
+}
+
+.fifteen_bg
+{
+ background-image: url(img/fifteen-bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 300px;
+}
+
+.seventeen_bg
+{
+ background-image: url(img/Seventeen-bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100px;
+}
+
+.eighteen_bg
+{
+ background-image: url(img/Five_bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 300px;
+}
+
+.eighteen_style
+{
+padding-left: 2rem;
+padding-top: 2rem;
+}
+
+.seventeen-style
+{
+padding-left: 16rem;
+padding-top: 1.5rem;
+}
+
+.button_style
+{
+	color:  #89ffc4 ;
+	height: 50px;
+	width: 50px;
+}
+
+.fifteen_style
+{
+
+padding-top: 2rem;	
+padding-left: 10rem;
+
+}
+
+.fifteen1_style
+{
+	padding-top: 7rem;
+}
+
+.fifteen2_style
+{
+	padding-top: 2rem;
+}
+
+.thirteen_Stye
+{
+	padding-top: 2rem;
+	padding-left: 6rem;
+
+}
+
+.twelve_Style
+{
+	padding-top: 2rem;
+	padding-right: 2rem;
+	
+}
