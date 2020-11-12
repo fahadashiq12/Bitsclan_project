@@ -11,6 +11,39 @@ body
 	padding: 0 !important;
 }	
 
+.dropdown-style
+{
+	width: 65%;	
+	height: 40px;
+	border-top-left-radius: 15px;
+}
+
+.button:hover
+{
+ background-color: #FFCC21;
+}
+
+.hr_style
+{
+	width: 10%;
+	height: 5px;
+	padding-left: 10rem;
+	background-color: #00EDA4 ;
+}
+
+.first_text
+{
+	color: white;
+	
+}
+
+.first1_text
+{
+	color: white;
+	opacity: 80%;
+}
+
+
 #page {
     background-image: url('http://gianlucaguarini.com/canvas-experiments/jQuery.BlackAndWhite/files/big-img.jpg');
     width: 800px;
@@ -129,29 +162,46 @@ body
 	}
 }
 
-.first_bg{
+.first_bg
+{
     background-image: url(/img/First_bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-	height: 700px;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	height: 600px;
+	padding-top: 80px;
 }
+
+
+.box:hover
+{
+ background-color: black;
+ box-shadow: black;
+ opacity: 50%;
+}
+
+.box_style
+{
+	background-color:#FAFAFA;
+	border-radius: 5px;
+}
+
 .enroll:hover{
 	background-image: url(img/enroll-active.png);
 }
+
 .first_style{
- padding-top: 12rem;
+ padding-top: 8rem;
  padding-left: 8rem;
 
 }
 
-.second_style{
-    padding-top: 12rem;
+.second_style
+{
+    padding-top: 6rem;
     padding-left: 8rem;
    
-   }
+}
 
 .third_style{
     padding-top: 4rem;
