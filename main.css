@@ -18,6 +18,7 @@ body
 	border-top-left-radius: 15px;
 }
 
+
 .button:hover
 {
  background-color: #FFCC21;
@@ -25,11 +26,53 @@ body
 
 .hr_style
 {
-	width: 10%;
-	height: 5px;
-	padding-left: 10rem;
+	width: 5%;
+	height: 3px;
+	padding-right: 10rem;
 	background-color: #00EDA4 ;
 }
+
+
+.box1_style
+{
+padding-top: 2rem;
+text-align: center;
+}
+
+
+.box
+{
+/* display: flex; */
+align-items: center;
+background-color: #fafafa;
+padding: 4px;
+border: 1px solid #f4f4f4;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+margin-left: 0!important;
+margin-right: 0!important; 
+transition: .9s!important;
+}
+ 
+.search_style
+{
+  border: 1px #fafafa;
+  border-radius: 15px;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.4s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(34, 34, 34, 0.2);
+	border-radius: 15px;	
+  }
+
 
 .first_text
 {
@@ -43,7 +86,6 @@ body
 	opacity: 80%;
 }
 
-
 #page {
     background-image: url('http://gianlucaguarini.com/canvas-experiments/jQuery.BlackAndWhite/files/big-img.jpg');
     width: 800px;
@@ -54,16 +96,18 @@ body
 {
     background-image: url(img/Stats-bg.png);
     background-repeat: no-repeat;
-    
 }
-.navbar {		
+
+.navbar
+ 
+{		
 	background: #fff;
 	padding-left: 16px;
 	padding-right: 16px;
-
 }
 
-.nav-link {
+.nav-link 
+{
 	margin: 0 5px;
 }
 .nav-link img {
@@ -115,6 +159,7 @@ body
 	padding: 7px 0 7px 7px;
 	height: 100%;
 }
+
 .search-box i {
 	color: #a0a5b1;
 	font-size: 19px;
@@ -168,26 +213,47 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-	height: 600px;
+	height: 650px;
 	padding-top: 80px;
 }
 
-
 .box:hover
 {
- background-color: black;
+ background-color: rgb(219, 217, 217);
  box-shadow: black;
- opacity: 50%;
+ opacity: 100%;
+} 
+
+
+.six_style
+{
+text-align: center;
+padding-top: 2rem;
+padding-left: 2rem;		
 }
+
 
 .box_style
 {
 	background-color:#FAFAFA;
-	border-radius: 5px;
+	border-radius: 20px;
 }
 
-.enroll:hover{
-	background-image: url(img/enroll-active.png);
+.enroll:hover
+{
+	background-image: url(img/enroll-active.png);	
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.enroll2:hover
+{
+	background-image: url(img/cat-bg.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .first_style{
@@ -237,7 +303,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-	height: 700px;
+	height: 750px;
 }
 
 .six_bg{
@@ -261,7 +327,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 800px;
 }
 
 .third_table
@@ -299,14 +365,14 @@ padding-top: 4rem;
 .seven_design
 {
 
-  padding-top: 0rem;
+  padding-top: 3rem;
   padding-left: 4rem;
 
 }
 
 .seven_table
 {
-	padding-top: 2rem;	
+	padding-top: 1rem;	
 }
 
 .third_row
@@ -322,6 +388,34 @@ padding-top: 4rem;
  height: 500px;
 }
 
+.six_bg_1 h3{
+	color: #fff;
+	padding-left: 15px;
+	padding-top: 5rem;
+}
+
+.six_bg_1 p
+{
+	color: #fff;
+	padding-left: 15px;
+}
+.six_bg_1 ul{
+	padding-left: 60px;
+}
+
+.six_bg_1 button
+{
+	
+	border-top-left-radius: 15px;
+}
+
+.six_bg_1 button:hover
+{
+	box-shadow: black;
+	transition: .9s;
+}
+
+
 .six_bg_2
 {
  background-image: url(img/student.png);
@@ -329,6 +423,7 @@ padding-top: 4rem;
  background-size: cover; 
  height: 500px;
 }
+
 
 .six_bg_3
 {
@@ -338,6 +433,29 @@ padding-top: 4rem;
  height: 500px;
 }
 
+.six_bg_3 h4
+{
+	color: #FAFAFA;
+	padding-top: 4rem;
+	padding-left: 1rem;
+}
+
+.six_bg_3 img
+{
+	padding-left: rem ;
+	padding-top: 8rem;
+}
+
+.six_bg_3 p
+{
+padding-left: 1rem;
+
+}
+
+.six_bg_3 button{
+	border-top-left-radius: 15px;
+}
+
 .twelve_bg
 {
  background-image: url(img/twelve-bg.png);
@@ -345,7 +463,6 @@ padding-top: 4rem;
  background-size: cover;
  height: 800px;
 }
-
 
 .thirteen_bg
 {
@@ -430,6 +547,23 @@ padding-left: 10rem;
 	
 }
 
+.tenimage:hover
+{
+	border-color: #00EDA4;
+	border: 4px solid #00EDA4 ;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	transition: 0.5s;
+	border-radius: 50%;
+}
+
+.tentext:hover
+{
+  color: #00EDA4;
+}
+
+
 .twelve1_Style
 {
 	padding-top: 7rem;
@@ -451,7 +585,7 @@ padding-top: 4rem;
 .ten_style
 {
 	padding-left: 0rem;
-	padding-top: 2rem;
+	padding-top: 0rem;
 }
 
 .fifteen2_style
@@ -463,13 +597,24 @@ padding-top: 4rem;
 {
 	padding-left: 5rem;
 	padding-top: 2rem;
-	padding-top: 1rem;
+}
+
+.nineimg:hover
+{
+	border-color: #00EDA4;
+	border: 5px solid #00EDA4 ;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	transition: 0.4s;
 }
 
 .eight_style
 {
 	padding-left: 2rem;
-	padding-top: 5rem;
+	padding-right: 2rem;
+	padding-top: 3rem;
 }
 
 .eight2_style
