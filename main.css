@@ -185,6 +185,7 @@ transition: 0.5s;
 #nine_bg
 {
 	padding-top: 70px;
+	
 }
 
 
@@ -745,10 +746,10 @@ padding-left: 1rem;
  background-image: url(img/fifteen-bg.png);
  background-repeat: no-repeat;
  background-size: cover;
- height: 300px;
+ height: 350px;
 }
 
-.seventeen_bg
+.sixteen_bg
 {
  background-image: url(img/Seventeen-bg.png);
  background-repeat: no-repeat;
@@ -756,7 +757,7 @@ padding-left: 1rem;
  height: 100px;
 }
 
-.eighteen_bg
+.seventeen_bg
 {
  background-image: url(img/Five_bg.jpg);
  background-repeat: no-repeat;
@@ -773,8 +774,54 @@ padding-top: 2rem;
 .seventeen-style
 {
 padding-left: 16rem;
-padding-top: 1.5rem;
+margin-top: 40px;
 }
+
+.socail-icon-f
+{
+	background-color: #f5f5f5;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	transition: .6s;
+}
+
+.socail-icon-t
+{
+	background-color: #f5f5f5;
+	padding: 5px 8px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	transition: .6s;
+}
+
+/* .socail-icon-g
+{
+	background-color: #f5f5f5;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	transition: .6s;
+} */
+
+.socail-icon-v
+{
+	background-color: #f5f5f5;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	transition: .6s;
+}
+
+.socail-icon-i
+{
+	background-color: #f5f5f5;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	transition: .6s;
+}
+
 
 .button_style
 {
@@ -861,10 +908,28 @@ padding-top: 4rem;
   width: 1000px;
 }
 
+.sixteen_span
+{
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sixteen_span:hover
+{
+     border-color: transparent;	
+}
+
+.sixteen_style
+{
+	color: white;	
+}
+
 .nine_style
 {
 	padding-left: 5rem;
 	padding-top: 2rem;
+	text-align: center;	
 }
 
 .profile_text
@@ -903,16 +968,38 @@ padding-top: 4rem;
 }
 
 
+.btn15_style
+{
+	border-top-left-radius: 20px;
+	background-image: linear-gradient(to right, #89ffc4 ,  #92b1fa );
+	border: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.btn15_style:hover
+{
+	background-image: linear-gradient(to right, #89ffc4 , #89ffc4 );
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	transition: 0.4s;
+}
+
 .btn9_style
 {
 	background-image: linear-gradient(to right, #89ffc4 ,  #92b1fa );
 	border-top-left-radius: 20px;
+	display: inline-block;
 }
 
 #last_section
 {
 	margin-top: 50px;
-	margin-left: 450px;
+	text-align: center;
 }
 
 .eight_style
