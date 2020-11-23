@@ -1,25 +1,4 @@
-body
-{
-	background: #eeeeee;
-	
-}
-
-
-
-@font-face {
-	font-family: Popins-Bold;
-	src: url(fonts/Poppins-Bold.ttf);
-  }
-  
- 
 @font-face 
-{
-	font-family: Popins-Medium;
-	src: url(fonts/Poppins-Medium.ttf);
-  }
-
-
-  @font-face 
 {
 	font-family: popins_reg;
 	src: url(fonts/Poppins-Regular.ttf);
@@ -1024,9 +1003,19 @@ padding-top: 4rem;
 .first1_style
 {
 	padding-left: 2rem;
+
 }
 
 .first2_style
 {
 	padding-left: 8rem;
+}
+
+
+@media ( max-width: 576px) {
+	.first1_style
+{
+	padding-left: 2rem;
+
+}
 }
