@@ -1055,13 +1055,28 @@ padding-top: 4rem;
 		line-height: inherit;
 		white-space: nowrap;
 	}
+
 	.navbar {
 		background: #fff;
 		padding-left: 0px;
-		padding-right: 16px;
+		padding-right: 0px;
 	}
 
-	.navbar-nav {
+	.profile_text
+	{
+		color: black;
+		font-style: normal;
+	}
+
+	.first_bg 
+	{
+		background-color: #7a7979;
+		height: 520px;
+		padding-top: 80px;
+	}
+
+	.navbar-nav 
+	{
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-direction: column;
@@ -1071,11 +1086,171 @@ padding-top: 4rem;
 		list-style: none;
 	}
 
-	.nav-link {
+
+	
+
+	.nav-link 
+	{
 		margin: 2px;
 		padding: 12px;
 	}
-}
+
+	.twelve_bg img
+	{
+		vertical-align: middle;
+		border-style: none;
+		max-width: 100%;
+	}
+
+	.twelve1_Style
+	{
+		padding-top: 4rem;
+		padding-left: 1rem;
+	}
+
+	.twelve_bg 
+	{
+    background-image: url(img/twelve-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; 
+	}
+	   
+	.Four_bg .third_style
+	{
+		padding-top: 0rem;
+	}	
+		
+	.Four_bg
+	{
+		padding: 25px;
+	}
+   
+	.third_style 
+	{
+		padding-top: 0rem;
+	}
+	
+	.third_row 
+	{
+		padding-top: 3rem;
+	}
+	 
+	.third_bg 
+	{
+		background-image: url(img/third_bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 532px;
+		padding-top: 30px;
+		padding-bottom: -19px;
+	}
+
+	#five1_background 
+	{
+		height: 586px !important;
+	}
+
+	.six_style 
+	{
+		padding-top: 0px;
+		padding-right: 127px;
+		padding-bottom: 0px;
+	}
+
+	.six_bg_1 
+	{
+		background-image: url(img/orange-Bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+	}
+
+	.six_style
+	{
+	   white-space: nowrap;
+	   padding: inherit;		
+	}
+
+	.eight_bg
+	{
+	  height: 776px;
+	}
+
+	.Ten_bg
+	{
+		height: 700px;
+	}
+		
+	/* .eleven_style
+	{
+	  margin-top: 60px;
+	} */
+
+	.eleven_bg
+	{
+	   height: 738px;	
+	}
+
+	.eleven2_bg img
+	{
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	align-items: center;
+	}
+
+	.fifteen2_style img
+	{
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.fourteen_bg
+	{	
+	margin-top: 20px ;
+	height: 500px;		
+	}
+
+	.fifteen_bg 
+	{
+		background-image: url(img/fifteen-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 199px;
+		padding-top: 2rem;
+	}
+
+	.seventeen_bg {
+		background-image: url(img/Five_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 310px;
+	}
+
+	.seventeen_bg .third_table {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		padding-top: 2rem;
+	}
+
+	.seventeen-style {
+		padding-left: 10rem;
+		margin-top: 40px;
+	}
+
+	.fifteen_style
+	{
+       padding-left: 3rem;
+	}
+
+	.fifteen1_style
+	{
+       padding-top: 2rem;
+	}
+
+    }
 @media (min-width: 768px) and (max-width:991px)
 {
 
