@@ -772,6 +772,7 @@ margin-top: 40px;
 	border: 1px solid transparent;
 	border-radius: 50%;
 	transition: .6s;
+	margin: 4px;
 }
 
 /* .socail-icon-g
@@ -1020,18 +1021,26 @@ padding-top: 4rem;
 }
 }
 
-@media(min-width: 1200px) and (max-width: 1504px)
-{
-	.navbar 
-	{
-		margin-left: 4px;
-	}
-}
-
-
 
 @media (min-width: 1200px) and (max-width: 2000px)
 {
+
+	.five_bg{
+		background-image: url(img/Five_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 800px;
+	}
+
+	.fifteen1_style {
+		padding-top: 6rem;
+	}
+
+	.fifteen_style {
+		padding-top: 5rem;
+		padding-left: 10rem;
+	}
 
 	
 }
@@ -1039,6 +1048,11 @@ padding-top: 4rem;
 
 @media (min-width: 992px) and (max-width: 1199px)
 {
+	.eleven_bg .eleven_style {
+		padding-left: 1rem;
+		padding-top: 2rem;
+	}
+
 	.navbar .navbar-brand {
 		color: #555;
 		padding-left: 0;
@@ -1085,9 +1099,6 @@ padding-top: 4rem;
 		margin-bottom: -1px;
 		list-style: none;
 	}
-
-
-	
 
 	.nav-link 
 	{
@@ -1178,6 +1189,8 @@ padding-top: 4rem;
 	  height: 776px;
 	}
 
+	
+
 	.Ten_bg
 	{
 		height: 700px;
@@ -1190,7 +1203,7 @@ padding-top: 4rem;
 
 	.eleven_bg
 	{
-	   height: 738px;	
+	   height: 600px;	
 	}
 
 	.eleven2_bg img
@@ -1253,10 +1266,93 @@ padding-top: 4rem;
     }
 @media (min-width: 768px) and (max-width:991px)
 {
+	.navbar .navbar-brand {
+		color: #555;
+		padding-left: 0;
+		font-size: 20px;
+		padding-right: 477px;
+		font-family: 'Raleway', sans-serif;
+	}
 
+
+	.responsive
+	{
+		display: none;
+	}
+
+
+	.responsive2 {
+		padding: -5px;
+		padding-left: 354px;
+		white-space: nowrap;
+		display: inherit;
+	}
+
+
+	.first_bg {
+		background-color: #7a7979;
+		height: 650px;
+		padding-top: 0px;
+	}
+
+
+	.first_style {
+		padding-top: 4rem;
+		padding-left: 14rem;
+	}
+
+
+	.second_style {
+		padding-top: 6rem;
+		padding-left: 15rem;
+	}
+
+
+	.third_bg {
+		background-image: url(img/third_bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 800px;
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	.Four_bg {
+		background-image: url(img/Four-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 910px;
+	}
+
+	.p-5 {
+		padding: 0rem!important;
+	}
+
+
+	#five1_background {
+		height: 545px !important;
+	}
+
+
+	.res_button
+	{
+		margin-left: 350px;
+        display: inline-block;
+        white-space: nowrap;
+	}
+
+	.seven_table {
+		padding-top: 5rem;
+	}
+
+	.seven_design {
+		padding-top: 3rem;
+		padding-left: 2rem;
+	}
 
 }
-
 
 @media (min-width: 576px) and (max-width: 767px)
 {
