@@ -873,8 +873,8 @@ padding-top: 4rem;
 
 .eleven1_style img
 {
-	height: 100%;
-	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .ten_style
@@ -1291,8 +1291,9 @@ padding-top: 4rem;
 
 	.first_bg {
 		background-color: #7a7979;
-		height: 650px;
-		padding-top: 0px;
+		height: 620px;
+		padding-top: 40px;
+	}
 	}
 
 
@@ -1352,6 +1353,171 @@ padding-top: 4rem;
 		padding-left: 2rem;
 	}
 
+	.eight_bg
+	{
+		height: 931px;
+	}
+
+	.btn_style1 {
+		margin-left: 113px;
+	}
+
+    .nine_style {
+		padding-left: 3rem;
+		padding-top: 2rem;
+		text-align: center;
+	}
+
+
+	.five_bg {
+		background-image: url(img/Five_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 804px;
+		/* padding-bottom: 50px; */
+	}
+
+	.fifteen2_style {
+		padding-top: 2rem;
+	}
+
+	.eleven_style {
+		padding-left: 2rem;
+		padding-top: 2rem;
+	}
+
+	.eleven1_style img 
+	{
+		max-height: 100%;
+		max-width: 100%;
+		padding-top: 80px;
+	}
+
+	.twelve_Style {
+		padding-top: 5rem;
+		padding-left: 0rem;
+	}
+
+	.twelve1_Style {
+		padding-top: 3rem;
+		padding-left: 1rem;
+	}
+	
+	.twelve_bg
+	{
+    background-image: url(img/twelve-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 505px;
+	}
+	
+
+	.thirteen_Stye {
+		padding-top: 2rem;
+		padding-left: 2rem;
+	}
+
+	.twelve_Style img
+	{
+		max-width: 100%;
+	}
+	
+	.fifteen2_style img
+	{
+			max-width: 100%;
+			max-height: 100%;	
+	}
+	
+	.fifteen2_style
+	{
+	   padding-top: 3rem;
+	}
+
+
+	.card_style {
+		height: 200px;
+		width: 327px;
+		color: #a0a5b1;
+	}
+	
+
+     .fifteen3_style {
+		padding-top: 9rem;
+	  }
+	  
+	  .fifteen3_style img{
+
+		max-width: 100%;
+	  }
+
+	.fifteen_style 
+	{
+		padding-top: 2rem;
+		padding-left: 1rem;
+	}
+
+	.fifteen1_style 
+	{
+	  padding-top: 2rem;
+	}
+
+	.fourteen_bg
+	{
+	    height: 538px !important;	
+	}
+
+	.fifteen_bg {
+		background-image: url(img/fifteen-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250px;
+	}
+
+
+	.third_style {
+		padding-top: 2rem;
+	}
+
+
+	.seventeen-style {
+		padding-left: 4rem;
+		margin-top: 40px;
+	}
+
+	.eighteen_style {
+		padding-left: 2rem;
+		padding-top: 1rem;
+	}
+
+	.seventeen_bg .third_table
+	{		
+		padding-left: 1rem;
+		padding-right: 0rem;
+		padding-top: 1rem;
+	}
+
+	.nav-link {
+		margin: 0 5px;
+		padding: 0px;
+	}
+
+	.res_footer
+	{
+		padding-left: 2rem;
+	}
+
+	.res_footer2
+	{
+		padding-left: 0rem;
+	}
+	
+	.third_bg .card_img
+	{
+		background-color: #d4d4d4;
+		height: 200px;
+		border: 1px solid transparent #d4d4d4;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767px)
